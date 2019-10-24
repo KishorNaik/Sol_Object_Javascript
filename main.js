@@ -29,3 +29,11 @@ userObj.age = 35;
 
 userObj.onDisplay();
 
+userObj.onDemo = function () {
+    console.log("On Demo");
+
+    console.log(`${this.firstName} ${this.lastName}`);
+};
+
+userObj.onDemo();
+
